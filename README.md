@@ -226,9 +226,13 @@ exists in valid location of cascades, or cells, or foundations.
 - def draw_a_card_from(self):
 A function is used for drawing a card action from any location in cascades, or
 cells or foundations after user’s input.
+  - i. Main logic structure:
+![draw_a_card_from](https://github.com/davidtw999/freecellgame/blob/master/logic2.png)
 - def place_a_card_to(self):
 A function is used for placing a card action to any location in cascades, or
 cells or foundations after user’s input.
+  - i. Main logic structure:
+![place_a_card_to](https://github.com/davidtw999/freecellgame/blob/master/logic3.png)
 - def check_moveToCas(self, c_list):
 A function is used for checking whether the game move for placing a card into
 cascades is valid or not.
@@ -249,7 +253,8 @@ A function is used for generating the list of lists.
         - do
       - If (Win a game == True)
         - quit game
-
+  - ii. Main logic structure:
+![main to play](https://github.com/davidtw999/freecellgame/blob/master/logic4.png)
 ## Gameplay instruction
 #### Running environment:
 Python 3.6
