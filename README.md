@@ -79,7 +79,7 @@ Card object.
       - else:<br>
         - To show the error messages for the user.<br>
   - iii. Main logic structure:
-  ![logic structure deck]()
+  ![logic structure deck](https://github.com/davidtw999/freecellgame/blob/master/logic1.png)
 
 - def __len__(self):
 Overloading function is used for accounting how many cards in the deck.
