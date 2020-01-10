@@ -78,6 +78,9 @@ Card object.
         - To add two Joker Cards into a list of cards in Deck object.<br>
       - else:<br>
         - To show the error messages for the user.<br>
+  - iii. Main logic structure:
+  ![logic structure deck]()
+
 - def __len__(self):
 Overloading function is used for accounting how many cards in the deck.
 - def __str__(self):
